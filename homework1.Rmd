@@ -1,0 +1,12 @@
+---
+title: 'Epidemiology 501: Homework 1'
+output:
+  pdf_document: default
+  html_notebook: default
+---
+
+### Consider the following two scenarios.
+Around 60 people have been infected and time series of case detection for the first 10 days appears as below. Write down the equation for the basic reproduction number, $\mathcal{R}_0$, and calculate the value.
+Suppose the delay from symptom onset and case detection is two days on average.  Calculate $\mathcal{R}_0$.
+
+You live in a nearby community of a similar size and none of the cases has been detected. Government announed that a flu vaccine is supposed to be effecitve against this emerging disease. What proportion of the population would you suggest to vaccinate? Write down equations to support your answer.  
