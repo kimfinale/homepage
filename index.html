@@ -132,9 +132,18 @@
 	
 	</div>
 
-
+       <script> 
+            function counter_fn(){
+                var counter = $('#cntr span').text(); // geting value from span
+                var count = 0;
+                count = parseInt(counter.value);
+                count = count+1;
+                counter.innerHTML = parseInt(count);
+           }
+           window.onload = counter_fn;  
+      </script>
 	<div id="footer" class="footer_text"><strong>Last modified: July 17, 2017</strong> 
-		<a href="mailto:kimfinale@gamil.com">Jong-Hoon Kim</a>
+		<a href="mailto:kimfinale@gmail.com">Jong-Hoon Kim</a>
 	</div>
 
 </div>
