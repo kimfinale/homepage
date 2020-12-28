@@ -28,11 +28,17 @@ a:focus,
 a:active
 { 
 /* background:black; 
-color:white; */
-border:0;
-text-decoration:none;
-bottom:0px; /*Change this to increase/decrease distance*/
-border-bottom: 3px solid #4682b4;  	
+color:white; 
+border:0;*/
+   background-color: transparent;
+    color: inherit;
+    text-decoration: none;
+    transition: background .15s cubic-bezier(.33,.66,.66,1);
+    border-bottom: 3px solid #b4e7f8;
+    box-shadow: inset 0 -3px 0 #b4e7f8;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    word-wrap: break-word; 	
 }
 div[id="container"] a,
 div[id="container"] a:visited{
